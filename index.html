@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.Manjunath_Reddy</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/5f69a082f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+	<div class="container">
+		<nav>
+			<!-- <h1 style="background-color: white;color: black;"><span style="color: #bb004f;">P</span>ulugura<span style="color: #bb004f;">M</span>anjunath<span style="color: #bb004f;">R</span>eddy</h1> -->
+			<img src="logoAi.png" alt="" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#about" onclick="opentab('Education')">Education</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu(sidemenu)"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu(sidemenu)"></i>
+		</nav>
+		<div class="header-text">
+			<p>Fresher, JAVA Developer</p>
+			<h1>Hey, Hi I am <br> <span>Manjunath Reddy.P</span></h1>
+		</div>
+	</div>
+   </div>
+   <!-- ---------------about------------ -->
+   <div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="Phone_Link/IMG_4508.jpeg" alt="">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About me</h1>
+				<p>I'm a UI Designer and Front End
+					Developer from Karnataka, India.
+					I enjoy taking complex problems and turning them into
+					simple and beautiful interface designs. I also love the logic
+					and structure Of coding and always strive to write elegant
+					and effcient code. whether it be HTML, CSS or jQuery.
+					When I'm not coding or pushing pixels. you'll find me in the
+					gym or on court shooting some hoops.</p>
+
+					<div class="tab-titles">
+						<p class="tab-links" onclick="opentab('Skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('Education')">Education</p>
+						<p class="tab-links" onclick="opentab('Projects')">Projects</p>
+					</div>
+					<div class="tab-contents" id="Skills">
+						<ul>
+							<li><span>UI/UX i.e HTML/CSS/JS</span><br>Designing Web/App interfaces</li>
+							<li><span>Database /SQL</span><br>Writing Queries to communicate with the databases</li>
+							<li><span>Backend /JAVA</span><br>Writing code in JAVA in an elegant
+								and effcient code. </li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="Education">
+						<ul>
+							<li><span>B.E/B.Tech</span><br>Completed B.Tech at S J C Institute of technology, Chickballapur in mechanical engineering with an aggrigate CGPA of 7.2 on jul/2023.</li>
+							<li><span>Intermediate</span><br>At Narayana Jr College, Anantapur with an aggrigate CGPA of 8.24 on mar/2019.</li>
+							<li><span>10Th</span><br>Completed schooling at Deepti E/M High school, Hindupur with an aggrigate CGPA of 9.0 on apr/2017. </li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="Projects">
+						<ul>
+							<li><span>Major Project</span><br>Done project on "Design of POWERPOD WIND TURBINE" which is used to generate power using wind energy.</li>
+							<li><span>Minor Project</span><br>Analysis of Various Components using "ANSYS SOFTWARE" where I have done Analysison "HYDRAULIC SCISSOR LIFT".</li>
+							<li><span>Internship</span><br>Done Internship on "AUTOMATION TECHNOLOGY" at Bosch rexroth pvt ltd.</li>
+						</ul>
+					</div>
+
+
+			</div>
+
+		</div>
+	</div>
+
+   </div>
+    <!-- --------skills----------- -->
+	 <div id="skills">
+		<div class="container">
+			<h1 class="my-skills">Skills</h1>
+				<div class="skills-list">
+					<div>
+						<i class="fa-brands fa-css3-alt"></i>
+						<h2>Frontend</h2>
+						<p>I am having skills on HTML, CSS and JS where i have done some projects using this Languages.</p>
+						<a href="">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-database"></i>
+						<h2>Database</h2>
+						<p>I have used my skills on SQL while in practice with the Queries to SELECT, INSERT, UPDATE and Delete the data in the database.</p>
+						<a href="">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-java"></i>
+						<h2>Backend</h2>
+						<p>I have learned JAVA as my backend language this skill I have used to write many classes and logics to perfom certain operations.</p>
+						<a href="">Learn more</a>
+					</div>
+				</div>
+		</div>
+	 </div>
+
+
+	 <!-- --------portfolio----------- -->
+	  <div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Projects</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="html.jpeg" alt="">
+					<div class="layer">
+						<h3>Hyper Text Markup Language</h3>
+						<p>This contains All the apps code that Frontend required </p>
+						<a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="sql.jpeg" alt="">
+					<div class="layer">
+						<h3>SQL DATABASE</h3>
+						<p>All the data of every object is stored inside the database if it nned to be stored..</p>
+						<a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="java.jpeg" alt="">
+					<div class="layer">
+						<h3>JAVA Programming Language</h3>
+						<p>Where all the logical code thet all is present inside this language.</p>
+						<a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+				<a href="" class="btn">See more</a>
+		</div>
+	  </div>
+	  <!-- ------contact------------ -->
+	   <div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-solid fa-envelope"></i>  contact@example.com</p>
+					<p><i class="fa-solid fa-phone"></i>  9876543210</p>  
+					<div class="social-icons">
+						<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+						<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>	
+					</div>
+					<a href="cv.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form submit="#about" name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<input type="submit" class="btn btn2">
+					</form>
+					<span id="msg" class="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright © Manju. Made with <i class="fa-solid fa-heart"></i> by Manjunath Reddy.</p>
+		</div>
+	   </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
