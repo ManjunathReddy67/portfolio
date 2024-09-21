@@ -42,8 +42,16 @@ function closemenu(){
       .catch(error => console.error('Error!', error.message))
   })
 
+const scriptURL1="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"
 
+var typingEffect = new Typed(".multiText",{
 
+strings:["Manjunath Reddy","coder","Java Developer"],
+loop: true,
+typeSpeed:100,
+backSpeed:80,
+backDe1ay:1500
+});
 
 // function opentab(tabname){
     
