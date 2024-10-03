@@ -15,7 +15,7 @@ body{
   /* border: #ff004f solid 2px; */
 
   width: 100%;
-  background-image: url(backgroundIt.jpeg);
+  background-image: url("backgroundIt.jpeg");
   height: 100vh;
   /* align-content:; */
   background-size:cover;
